@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79529E05224AE69E00EB19D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79529E04224AE69E00EB19D7 /* AppDelegate.swift */; };
+		79529E07224AE69E00EB19D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79529E06224AE69E00EB19D7 /* ViewController.swift */; };
+		79529E0A224AE69E00EB19D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79529E08224AE69E00EB19D7 /* Main.storyboard */; };
+		79529E0C224AE6A300EB19D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79529E0B224AE6A300EB19D7 /* Assets.xcassets */; };
+		79529E0F224AE6A300EB19D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79529E0D224AE6A300EB19D7 /* LaunchScreen.storyboard */; };
+		79529E1A224AE6A400EB19D7 /* HydrantsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79529E19224AE6A400EB19D7 /* HydrantsTests.swift */; };
+		79529E25224AE6A400EB19D7 /* HydrantsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79529E24224AE6A400EB19D7 /* HydrantsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79529E16224AE6A400EB19D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79529DF9224AE69E00EB19D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79529E00224AE69E00EB19D7;
+			remoteInfo = Hydrants;
+		};
+		79529E21224AE6A400EB19D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79529DF9224AE69E00EB19D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79529E00224AE69E00EB19D7;
+			remoteInfo = Hydrants;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79529E01224AE69E00EB19D7 /* Hydrants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hydrants.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79529E04224AE69E00EB19D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79529E06224AE69E00EB19D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79529E09224AE69E00EB19D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79529E0B224AE6A300EB19D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79529E0E224AE6A300EB19D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79529E10224AE6A300EB19D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79529E15224AE6A400EB19D7 /* HydrantsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydrantsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79529E19224AE6A400EB19D7 /* HydrantsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrantsTests.swift; sourceTree = "<group>"; };
+		79529E1B224AE6A400EB19D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79529E20224AE6A400EB19D7 /* HydrantsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydrantsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79529E24224AE6A400EB19D7 /* HydrantsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrantsUITests.swift; sourceTree = "<group>"; };
+		79529E26224AE6A400EB19D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79529DFE224AE69E00EB19D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79529E12224AE6A400EB19D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79529E1D224AE6A400EB19D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79529DF8224AE69E00EB19D7 = {
+			isa = PBXGroup;
+			children = (
+				79529E03224AE69E00EB19D7 /* Hydrants */,
+				79529E18224AE6A400EB19D7 /* HydrantsTests */,
+				79529E23224AE6A400EB19D7 /* HydrantsUITests */,
+				79529E02224AE69E00EB19D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79529E02224AE69E00EB19D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79529E01224AE69E00EB19D7 /* Hydrants.app */,
+				79529E15224AE6A400EB19D7 /* HydrantsTests.xctest */,
+				79529E20224AE6A400EB19D7 /* HydrantsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79529E03224AE69E00EB19D7 /* Hydrants */ = {
+			isa = PBXGroup;
+			children = (
+				79529E04224AE69E00EB19D7 /* AppDelegate.swift */,
+				79529E06224AE69E00EB19D7 /* ViewController.swift */,
+				79529E08224AE69E00EB19D7 /* Main.storyboard */,
+				79529E0B224AE6A300EB19D7 /* Assets.xcassets */,
+				79529E0D224AE6A300EB19D7 /* LaunchScreen.storyboard */,
+				79529E10224AE6A300EB19D7 /* Info.plist */,
+			);
+			path = Hydrants;
+			sourceTree = "<group>";
+		};
+		79529E18224AE6A400EB19D7 /* HydrantsTests */ = {
+			isa = PBXGroup;
+			children = (
+				79529E19224AE6A400EB19D7 /* HydrantsTests.swift */,
+				79529E1B224AE6A400EB19D7 /* Info.plist */,
+			);
+			path = HydrantsTests;
+			sourceTree = "<group>";
+		};
+		79529E23224AE6A400EB19D7 /* HydrantsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79529E24224AE6A400EB19D7 /* HydrantsUITests.swift */,
+				79529E26224AE6A400EB19D7 /* Info.plist */,
+			);
+			path = HydrantsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79529E00224AE69E00EB19D7 /* Hydrants */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79529E29224AE6A400EB19D7 /* Build configuration list for PBXNativeTarget "Hydrants" */;
+			buildPhases = (
+				79529DFD224AE69E00EB19D7 /* Sources */,
+				79529DFE224AE69E00EB19D7 /* Frameworks */,
+				79529DFF224AE69E00EB19D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hydrants;
+			productName = Hydrants;
+			productReference = 79529E01224AE69E00EB19D7 /* Hydrants.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79529E14224AE6A400EB19D7 /* HydrantsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79529E2C224AE6A400EB19D7 /* Build configuration list for PBXNativeTarget "HydrantsTests" */;
+			buildPhases = (
+				79529E11224AE6A400EB19D7 /* Sources */,
+				79529E12224AE6A400EB19D7 /* Frameworks */,
+				79529E13224AE6A400EB19D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79529E17224AE6A400EB19D7 /* PBXTargetDependency */,
+			);
+			name = HydrantsTests;
+			productName = HydrantsTests;
+			productReference = 79529E15224AE6A400EB19D7 /* HydrantsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79529E1F224AE6A400EB19D7 /* HydrantsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79529E2F224AE6A400EB19D7 /* Build configuration list for PBXNativeTarget "HydrantsUITests" */;
+			buildPhases = (
+				79529E1C224AE6A400EB19D7 /* Sources */,
+				79529E1D224AE6A400EB19D7 /* Frameworks */,
+				79529E1E224AE6A400EB19D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79529E22224AE6A400EB19D7 /* PBXTargetDependency */,
+			);
+			name = HydrantsUITests;
+			productName = HydrantsUITests;
+			productReference = 79529E20224AE6A400EB19D7 /* HydrantsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79529DF9224AE69E00EB19D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Paul Baker";
+				TargetAttributes = {
+					79529E00224AE69E00EB19D7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					79529E14224AE6A400EB19D7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 79529E00224AE69E00EB19D7;
+					};
+					79529E1F224AE6A400EB19D7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 79529E00224AE69E00EB19D7;
+					};
+				};
+			};
+			buildConfigurationList = 79529DFC224AE69E00EB19D7 /* Build configuration list for PBXProject "Hydrants" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79529DF8224AE69E00EB19D7;
+			productRefGroup = 79529E02224AE69E00EB19D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79529E00224AE69E00EB19D7 /* Hydrants */,
+				79529E14224AE6A400EB19D7 /* HydrantsTests */,
+				79529E1F224AE6A400EB19D7 /* HydrantsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79529DFF224AE69E00EB19D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79529E0F224AE6A300EB19D7 /* LaunchScreen.storyboard in Resources */,
+				79529E0C224AE6A300EB19D7 /* Assets.xcassets in Resources */,
+				79529E0A224AE69E00EB19D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79529E13224AE6A400EB19D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79529E1E224AE6A400EB19D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79529DFD224AE69E00EB19D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79529E07224AE69E00EB19D7 /* ViewController.swift in Sources */,
+				79529E05224AE69E00EB19D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79529E11224AE6A400EB19D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79529E1A224AE6A400EB19D7 /* HydrantsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79529E1C224AE6A400EB19D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79529E25224AE6A400EB19D7 /* HydrantsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79529E17224AE6A400EB19D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79529E00224AE69E00EB19D7 /* Hydrants */;
+			targetProxy = 79529E16224AE6A400EB19D7 /* PBXContainerItemProxy */;
+		};
+		79529E22224AE6A400EB19D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79529E00224AE69E00EB19D7 /* Hydrants */;
+			targetProxy = 79529E21224AE6A400EB19D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79529E08224AE69E00EB19D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79529E09224AE69E00EB19D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79529E0D224AE6A300EB19D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79529E0E224AE6A300EB19D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79529E27224AE6A400EB19D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79529E28224AE6A400EB19D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79529E2A224AE6A400EB19D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Hydrants/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PaulBaker.Hydrants;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79529E2B224AE6A400EB19D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Hydrants/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PaulBaker.Hydrants;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79529E2D224AE6A400EB19D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HydrantsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PaulBaker.HydrantsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hydrants.app/Hydrants";
+			};
+			name = Debug;
+		};
+		79529E2E224AE6A400EB19D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HydrantsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PaulBaker.HydrantsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hydrants.app/Hydrants";
+			};
+			name = Release;
+		};
+		79529E30224AE6A400EB19D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HydrantsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PaulBaker.HydrantsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hydrants;
+			};
+			name = Debug;
+		};
+		79529E31224AE6A400EB19D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HydrantsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PaulBaker.HydrantsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hydrants;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79529DFC224AE69E00EB19D7 /* Build configuration list for PBXProject "Hydrants" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79529E27224AE6A400EB19D7 /* Debug */,
+				79529E28224AE6A400EB19D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79529E29224AE6A400EB19D7 /* Build configuration list for PBXNativeTarget "Hydrants" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79529E2A224AE6A400EB19D7 /* Debug */,
+				79529E2B224AE6A400EB19D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79529E2C224AE6A400EB19D7 /* Build configuration list for PBXNativeTarget "HydrantsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79529E2D224AE6A400EB19D7 /* Debug */,
+				79529E2E224AE6A400EB19D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79529E2F224AE6A400EB19D7 /* Build configuration list for PBXNativeTarget "HydrantsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79529E30224AE6A400EB19D7 /* Debug */,
+				79529E31224AE6A400EB19D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79529DF9224AE69E00EB19D7 /* Project object */;
+}
