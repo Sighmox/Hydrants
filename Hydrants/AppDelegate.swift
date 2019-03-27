@@ -16,6 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //Inject HydrantStore object
+        let viewController = window!.rootViewController as! ViewController
+        let hydrantStore = HydrantStore()
+        viewController.hydrantStore = hydrantStore
+        
         return true
     }
 
