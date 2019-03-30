@@ -9,7 +9,7 @@
 import Foundation
 import MapKit
 
-class HydrantUpdate {
+class HydrantUpdate: NSObject, NSCoding {
     
     let coordinate: CLLocationCoordinate2D
     let imageKey: String
